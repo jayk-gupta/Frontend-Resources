@@ -40,9 +40,9 @@ OR
 git push origin branch-name
 ```
 > Make Pull Request from Github Repository
-** Star the repository. **
-** Pull requests are welcome.**
-** Feel free to add the resources you know for learning front-end. **
+Star the repository.
+Pull requests are welcome.
+Feel free to add the resources you know for learning front-end.
 
 ### Note
 
