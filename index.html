@@ -1,107 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Resources</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d39106e7f3.js" crossorigin="anonymous"></script>
+    <title>Frontend Resources </title>
 </head>
 <body>
-  <main>
-<section class="html">
- <h2 class="heading-secondary">HTML</h2>
-<ol  class="list">
-  <li class="html-list">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mdn Docs</a>
-  </li>
-  <li class="html-list">
- <a href="https://web.dev/learn/html/">web dev</a>
-  </li>
-  <li class="html-list">
-    <a href="https://html.com/">html.com</a>
-  </li>
-  <li class="html-list">
-    <a href="https://www.learn-html.org/">learn html org</a>
-  </li>
-  <li class="html-list">
-    <a href="https://www.w3schools.com/html/">w3schols</a>
-  </li>
-  <li class="css-list">
-    <a href="https://learnhtmlcss.online/">learn html css online</a>
-  </li>
-  <li class="css-list">
-    <a href="https://www.w3docs.com/">w3docs</a>
-  </li>
+    <header>
+        <nav>
+            <div class=""><span class="">FE.</span></div>
+    
+            <img class="menu" src="./images/icons8-menu-bar-24.png" alt="">
+            <!-- Links to different parts of the homepage -->
+            <ul>
+                <li class=""><a href="#tutorials">Tutorials</a></li>
+                <li class=""><a href="#libraries">Libraries & Frameworks</a></li>
+                <li class=""><a href="#resources">Resources</a></li>
+                <li class=""><a href="#apis">API's</a></li>
+            </ul>
+        </nav>
 
+        <!-- Header hero text and sub text -->
+        <div class="hero">
+            <h1>Welcome to our Frontend <br> Resources Page</h1>
 
-</ol>
+            <p>Here you will find links to various resources that can help you learn and improve your front-end development skills. Get access to the latest and greatest front end tools and frameworks that will help you build fast, modern, and accessible websites.</p>
+            <a href="https://github.com/jayk-gupta/Frontend-Resources"><button>Contribute To This Project Here</button></a>
 
-</section>
-<section class="css">
-  <h2 class="heading-secondary">CSS</h2>
-  <ol class="list">
-    <li class="css-list">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Docs</a>
-    </li>
-    <li class="css-list">
-      <a href="https://web.dev/learn/css/?gclid=Cj0KCQiAx6ugBhCcARIsAGNmMbhJ5DgKz4fhRWdbU0JFgYQlakZ-IatpYPTS0KVMlRxFc1L1gnplC2AaAgCfEALw_wcB">Web dev</a>
-    </li>
-    <li class="css-list">
-      <a href="https://learnhtmlcss.online/">learn html css online</a>
-    </li>
-    <li class="css-list">
-      <a href="https://css-tricks.com/">CSS Tricks</a>
-    </li>
-    <li class="css-list">
-      <a href="https://www.w3docs.com/">w3docs</a>
-    </li>
-    <li class="css-list">
-      <a href="https://cssreference.io/">CSS reference io</a>
-    </li>
-  <ol>
-</section>
-<section class="js">
-  <h2 class="heading-secondary">JavaScript</h2>
-  <ol class="list">
-    <li class="js-list">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Docs</a>
-    </li>
-    <li class="js-list">
-      <a href="https://javascript.info/">javascript info</a>
-    </li>
-    <li class="js-list">
-      <a href="https://learnjavascript.online/">learn javascript online</a>
-    </li>
-    <li class="js-list">
-      <a href="https://www.learn-js.org/">learn js org</a>
-    </li>
-    <li class="js-list">
-      <a href="https://www.javascripttutorial.net/es6/javascript-promises/">javascript Turtorial net</a>
-    </li>
-  <ol>
-</section>
+            <div class="blur"></div>
+        </div>
+    </header>
+    
+    <main class="content">
+        <!-- Tutorials section -->
+        <section id="tutorials" class="tutorials">
+            <h2>Tutorials & Courses</h2>
 
+            <!-- List of all tutorials with links and details -->
+            <div class="all-tutorials">
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Codeacademy</h3>
+                        <a href="https://www.codecademy.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Learn to code interactively with hands-on projects and quizzes. Codecademy offers courses on HTML, CSS, JavaScript, and more.</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>FreeCodeCamp </h3>
+                        <a href="https://www.freecodecamp.org/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>FreeCodeCamp offers a curriculum that covers HTML, CSS, JavaScript, React, and more. Earn certifications and build projects to showcase your skills.</p>
+                </div>
 
-  </main>
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Udacity</h3>
+                        <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Udacity offers a range of front end web development courses that cover everything from responsive design to accessibility. Learn from experts and work on real-world projects</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Coursera</h3>
+                        <a href="https://www.coursera.org/courses?query=front%20end%20web%20development"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Take front end web development courses from top universities and industry leaders on Coursera. Learn at your own pace and earn certificates to showcase your skills.</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>LinkedIn Learning </h3>
+                        <a href="https://www.linkedin.com/learning/topics/front-end-web-development"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>LinkedIn Learning offers over 2,000 courses on front end web development, including courses on HTML, CSS, JavaScript, and popular frameworks like React and Angular</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>W3Schools </h3>
+                        <a href="https://www.w3schools.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>W3Schools is a popular resource for learning web development skills. Their front end courses cover HTML, CSS, JavaScript, and more, with interactive examples and quizzes.</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Pluralsight</h3>
+                        <a href="https://www.pluralsight.com/paths/front-end-web-development"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Pluralsight offers front end web development courses for all skill levels, from beginner to advanced. Learn from experts and get hands-on experience with projects.</p>
+                </div>
 
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Treehouse</h3>
+                        <a href="https://teamtreehouse.com/library/topic:frontend-web-development"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Treehouse offers a wide range of front end web development courses, from HTML and CSS to JavaScript frameworks like React and Vue. Learn through interactive video lessons and coding challenges.</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Libraries section -->
+        <section id="libraries" class="libraries">
+            <h2>Libraries & Frameworks</h2>
 
+            <!-- List of libraries and frameworks with links and sub text -->
+            <div class="all-libraries">
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>React</h3>
+                        <a href="https://reactjs.org/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>A popular JavaScript library for building user interfaces, React is widely used for developing fast and dynamic web applications. It's open source and maintained by Facebook.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Angular</h3>
+                        <a href="https://angular.io/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Angular is a comprehensive front end framework for building complex web applications. Developed by Google, it uses TypeScript and offers a wide range of features.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Vue.js</h3>
+                        <a href="https://vuejs.org/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Vue.js is a progressive framework for building user interfaces, designed to be flexible, scalable, and easy to use. It's popular for building fast, interactive web applications.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Bootstrap</h3>
+                        <a href="https://getbootstrap.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Bootstrap is a popular front end framework that provides a collection of CSS and JavaScript components for building responsive and mobile-first websites. It's widely used by developers and designers</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Materialize</h3>
+                        <a href="https://materializecss.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Materialize is a front end framework that follows Google's Material Design principles, providing a collection of CSS and JavaScript components for building beautiful and responsive web applications</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Tailwind CSS</h3>
+                        <a href="https://tailwindcss.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Tailwind CSS is a utility-first CSS framework that provides a collection of pre-designed CSS classes for building custom and responsive user interfaces. It's highly customizable and easy to use.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Semantic UI</h3>
+                        <a href="https://semantic-ui.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>Semantic UI is a front end framework that uses human-friendly HTML to provide a collection of CSS and JavaScript components for building responsive and accessible web applications.</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Resources section -->
+        <section id="resources" class="resources">
+            <h2>Resources</h2>
+            <div class="all-resources">
+                <!-- HTML section -->
+                <div class="html">
+                    <h3>HTML</h3>
+                    <!-- List of HTML resources and links  -->
+                    <ul>
+                        <li>
+                            <span>MDN Docs</span>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Web Dev</span>
+                            <a href="https://web.dev/learn/html/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>HTML.com</span>
+                            <a href="https://html.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>HTML Cheat Sheet</span>
+                            <a href="https://htmlcheatsheet.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a></li>
+                        <li>
+                            <span>W3Schools</span>
+                            <a href="https://www.w3schools.com/html/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Learn HTML & CSS</span>
+                            <a href="https://learnhtmlcss.online/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>W3docs</span>
+                            <a href="https://www.w3docs.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>HTML Goodies</span>
+                            <a href="https://www.htmlgoodies.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>HTML5 Rocks</span>
+                            <a href="https://www.html5rocks.com/en/tutorials/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="css">
+                    <h3>CSS</h3>
+                    <!-- List of CSS resources and links  -->
+                    <ul>
+                        <li>
+                            <span>MDN Docs</span>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>CSS Reference IO</span>
+                            <a href="https://cssreference.io/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Mozilla Developer Network</span>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>CSS Tricks</span>
+                            <a href="https://css-tricks.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>CSS Zen Garden</span>
+                            <a href="http://www.csszengarden.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Flexbox Froggy</span>
+                            <a href="https://flexboxfroggy.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>CSS Grid Garden</span>
+                            <a href="https://cssgridgarden.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Learn CSS Layout</span>
+                            <a href="http://learnlayout.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="javascript">
+                    <h3>JavaScript</h3>
+                    <!-- List of JavaScript resources and links  -->
+                    <ul>
+                        <li>
+                            <span>JavaScript.info</span>
+                            <a href="https://javascript.info/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>JSFiddle</span>
+                            <a href="https://jsfiddle.net/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>W3Schools</span>
+                            <a href="https://www.w3schools.com/js/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>JavaScript.com</span>
+                            <a href="https://www.javascript.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>FreeCodeCamp</span>
+                            <a href="https://www.freecodecamp.org/learn/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>JavaScript30</span>
+                            <a href="https://javascript30.com/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Eloquent JavaScript</span>
+                            <a href="https://eloquentjavascript.net/"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <span>Codeacademy</span>
+                            <a href="https://www.codecademy.com/learn/introduction-to-javascript"><img src="./images/up-right-from-square-solid.svg" alt=""> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+        </section>
 
+        <!-- API's section -->
+        <section id="apis" class="">
+            <h2>API's</h2>
+            <div class="all-apis">
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Open Weather API</h3>
+                        <a href="https://openweathermap.org/api"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The OpenWeatherMap API allows developers to access weather data for any location in the world. This API provides a range of resources, including current weather conditions, forecasts, and more.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Google Maps API</h3> 
+                        <a href="https://developers.google.com/maps"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The Google Maps API allows developers to integrate maps and location data into their applications. This API provides a range of resources, including maps, markers, directions, and more.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Twitter API</h3>
+                        <a href="https://developer.twitter.com/en/docs"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The Twitter API allows developers to access Twitter's data and build applications that integrate with the platform. This API provides a range of resources, including user timelines, mentions, direct messages, and more.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>YouTube API</h3>
+                        <a href="https://developers.google.com/youtube"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The YouTube API allows developers to access data related to YouTube videos, channels, and playlists. This API provides a range of resources, including video data, comments, and more.</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Twilio API</h3>
+                        <a href="https://www.twilio.com/docs/usage/api"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The Twilio API allows developers to integrate SMS, voice, and video messaging into their applications. This API provides a range of resources, including messaging, voice calls, video calls, and more</p>
+                </div>
+    
+                <div class="grid-box">
+                    <div class="top">
+                        <h3>Stripe API</h3>
+                        <a href="https://stripe.com/docs/api"><img src="./images/up-right-from-square-solid.svg" alt=""></a>
+                    </div>
+                    <p>The Stripe API allows developers to build payment processing into their applications. This API provides a range of resources, including payments, subscriptions, and more.</p>
+                </div>
+            </div>
 
+        </section>
+    </main>
 
+    <footer>
+        <h2>Thanks for visiting our Frontend Resources page!</h2>
+        <p> We hope you find these links helpful in your frontend development journey. If you have any suggestions or feedback, please feel free to raise an <a href="https://github.com/jayk-gupta/Frontend-Resources/issues">issue</a>.</p>
+        <p>Contribute to this project <a href="https://github.com/jayk-gupta/Frontend-Resources">here</a>.</p>
 
-
-
-
-
-
+        <p class="copyright">Copyright 2023 Frontend Resources. All Rights Reserved</p>
+    </footer>
 </body>
 </html>
